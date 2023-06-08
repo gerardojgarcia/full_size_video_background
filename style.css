@@ -1,0 +1,48 @@
+* {
+  font-family: Helvetica;
+  margin: 0;
+}
+
+
+.hero {
+  display: grid;
+  place-content: center;
+
+  margin: 0;
+
+  position: relative;
+}
+
+
+h1 {
+  z-index:10;
+  position: absolute;
+  top: 50vh;
+  left: 50vh;
+
+
+}
+
+#video {
+  width: 100vw;
+  height: 100vh;
+  position: absolute;
+  aspect-ratio: 16 / 9;
+  object-fit: fill;
+
+}
+
+
+.video-controls {
+  position: absolute;
+  top: 55vh;
+  z-index: 10;
+  left: 50vh;
+}
+
+.play-pause {
+  border: 2px solid black;
+  border-radius: .1rem;
+  padding: .5rem;
+
+}
